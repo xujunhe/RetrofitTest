@@ -9,7 +9,7 @@ import retrofit2.http.GET;
 import retrofit2.http.POST;
 
 /**
- * 作者：许俊和 on 16-6-16 11:28
+ * 作者：xujunhe on 16-6-16 11:28
  */
 public interface HttpRequestService {
 

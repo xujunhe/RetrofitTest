@@ -59,6 +59,7 @@ public class MainActivity extends AppCompatActivity {
         multipartBody.addFormDataPart("file",file2.getName(),requestBody2);
         multipartBody.addFormDataPart("name","value");
         multipartBody.addFormDataPart("name1","value1");
+        multipartBody.addFormDataPart("name2","value2");
         MultipartBody build = multipartBody.build();
         Call<String> resultService = httpRequestService.postSingleFile(build);
         resultService.enqueue(new ResultCall());
